@@ -1,0 +1,75 @@
+{
+  "a": [
+    {
+      "flowRate": 0,
+      "pipeLength": 0
+    },
+    {
+      "b": [
+        {"flowRate": 0.15, "pipeLength": 100},
+        {"c": [{"flowRate": 0.1, "pipeLength": 200}]}
+      ]
+    },
+    {
+      "d": [
+        {"flowRate": 0, "pipeLength": 100},
+        {
+          "e": [
+            {
+              "flowRate": 0.2,
+              "pipeLength": 400
+            },
+            {
+              "f": [
+                {
+                  "flowRate": 0.05,
+                  "pipeLength": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "g": [
+            {
+              "flowRate": 0.25,
+              "pipeLength": 100
+            },
+            {
+              "h": [
+                {
+                  "flowRate": 0.3,
+                  "pipeLength": 300
+                }
+              ]
+            },
+            {
+              "i": [
+                {
+                  "flowRate": 0.15,
+                  "pipeLength": 200
+                },
+                {
+                  "j": [
+                    {
+                      "flowRate": 0.25,
+                      "pipeLength": 150
+                    }
+                  ]
+                },
+                {
+                  "k": [
+                    {
+                      "flowRate": 0.3,
+                      "pipeLength": 400
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
