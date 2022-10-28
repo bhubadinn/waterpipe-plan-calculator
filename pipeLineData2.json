@@ -19,7 +19,7 @@
       "name": "c",
       "flowrate": 0.1,
       "pipeLength": 200,
-      "previous": ["b"],
+      "previous": ["a, b"],
       "next": []
     },
     {
@@ -33,49 +33,49 @@
       "name": "e",
       "flowrate": 0.05,
       "pipeLength": 400,
-      "previous": ["d"],
+      "previous": ["a, d"],
       "next": ["f"]
     },
     {
       "name": "f",
       "flowrate": 0.05,
       "pipeLength": 300,
-      "previous": ["e"],
+      "previous": ["a, d, e"],
       "next": []
     },
     {
       "name": "g",
       "flowrate": 1,
       "pipeLength": 100,
-      "previous": ["d"],
+      "previous": ["a, d"],
       "next": ["h", "i"]
     },
     {
       "name": "h",
       "flowrate": 0.3,
       "pipeLength": 300,
-      "previous": ["g"],
+      "previous": ["a, d, g"],
       "next": []
     },
     {
       "name": "i",
       "flowrate": 0.55,
       "pipeLength": 200,
-      "previous": ["g"],
+      "previous": ["a, d, g"],
       "next": ["j", "k"]
     },
     {
       "name": "j",
       "flowrate": 0.25,
       "pipeLength": 150,
-      "previous": ["i"],
+      "previous": ["a, d, g, i"],
       "next": []
     },
     {
       "name": "k",
       "flowrate": 0.3,
       "pipeLength": 400,
-      "previous": ["i"],
+      "previous": ["a, d, g, i"],
       "next": []
     }
   ],

@@ -1,0 +1,21 @@
+{
+  "waterHead": 15,
+  "nodeInfo": [
+    {
+      "name": "a",
+      "flowrate": 0.15,
+      "pipeLength": 100
+    },
+    {
+      "name": "b",
+      "flowrate": 0.1,
+      "pipeLength": 100
+    },
+    {
+      "name": "c",
+      "flowrate": 0.1,
+      "pipeLength": 200
+    }
+  ],
+  "pipeDiameter": [0.375, 0.5, 0.75, 1, 1.5, 1.25, 2, 2.5, 3, 4, 5, 6, 8]
+}
